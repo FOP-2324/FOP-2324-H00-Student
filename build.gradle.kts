@@ -11,6 +11,9 @@ jagr {
     assignmentId.set("h00")
     submissions {
         val main by creating {
+            // ACHTUNG!
+            // Setzen Sie im folgenden Bereich Ihre TU-ID (NICHT Ihre Matrikelnummer!), Ihren Nachnamen und Ihren Vornamen
+            // in Anführungszeichen (z.B. "ab12cdef" für Ihre TU-ID) ein!
             // studentId.set("")
             // firstName.set("")
             // lastName.set("")
