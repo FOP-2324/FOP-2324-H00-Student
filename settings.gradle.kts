@@ -7,4 +7,12 @@ dependencyResolutionManagement {
     }
 }
 
+pluginManagement {
+    repositories {
+//        mavenLocal()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
 rootProject.name = "H00-Student"
