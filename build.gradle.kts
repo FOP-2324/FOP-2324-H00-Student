@@ -16,8 +16,6 @@ submission {
 
     // Optionally require own tests for mainBuildSubmission task. Default is false
     requireTests = false
-    // Optionally require public grader for mainBuildSubmission task. Default is false
-    requireGraderPublic = false
 }
 
 dependencies {
