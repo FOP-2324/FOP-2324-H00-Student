@@ -1,3 +1,5 @@
+import org.sourcegrade.jagr.gradle.task.grader.GraderRunTask
+
 plugins {
     alias(libs.plugins.algomate)
 }
@@ -21,4 +23,12 @@ submission {
 dependencies {
     // libs.fopbot method generated from ./gradle/libs.versions.toml
     implementation(libs.fopbot)
+}
+
+tasks {
+    withType<GraderRunTask> {
+        doFirst {
+            throw GradleException("No public tests are provided for this exercise! For more information go to https://moodle.informatik.tu-darmstadt.de/mod/page/view.php?id=60388")
+        }
+    }
 }
